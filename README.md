@@ -73,15 +73,9 @@ The main Jinnan dataset experiments use the following settings:
 | Image size | 256 × 256 |
 | Batch size | 4 |
 | Maximum epochs | 200 |
-| Optimizer | AdamW |
-| Learning rate | 3 × 10⁻⁴ |
-| Weight decay | 1 × 10⁻⁴ |
-| Adam betas | (0.9, 0.999) |
 | Loss function | Dice loss + Tversky loss |
-| Learning-rate scheduler | None |
-| Additional data augmentation | None |
 | Checkpoint selection | Best validation Dice |
-| Random seeds | 42, 2026, 3407 |
+
 
 FLOPs are measured for a single forward pass at **256 × 256** resolution. Hardware throughput numbers, when provided, should be interpreted with their stated device and batch-size settings rather than as mobile-device inference performance.
 
