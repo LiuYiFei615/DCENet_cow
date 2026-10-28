@@ -19,7 +19,6 @@ The two principal modules are:
 - **Spatial-domain Topology-inspired Deformation Fusion Module (STDFM):** applied at a shallow stage to capture local spatial relationships through four-directional neighborhood differences and to adapt feature extraction to irregular shapes using deformable convolution. The module is *topology-inspired*; it does not claim mathematically guaranteed topological invariance.
 - **Frequency-domain Phase Modulation Module (FPMM):** introduced at an intermediate stage to process spectral features. Its modulation phase function (MPF) adjusts phase information to enhance representations relevant to contours and fine structures.
 
-The network also uses a lightweight **PCA–PSA bottleneck** with grouped operations to control computational complexity.
 
 <!-- Add the verified network architecture illustration here when available:
 ![Architecture of DCENet](assets/DCENet_architecture.png)
